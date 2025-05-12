@@ -1,0 +1,11 @@
+group:
+  - files:
+      - source: assets/
+      - source: config/
+        exclude: |
+          settings_data.json
+      - source: layout/
+      - source: sections/
+      - source: snippets/
+    repos: |
+      petramarkovic/theme-dev
